@@ -39,6 +39,30 @@ th {
   text-align: center;
 }
 
+td:nth-child(1) {
+  width: 16.6%;
+}
+td:nth-child(2) {
+  width: 16.6%;
+}
+td:nth-child(3) {
+  width: 16.6%;
+}
+td:nth-child(4) {
+  width: 16.6%;
+}
+td:nth-child(5) {
+  width: 16.6%;
+}
+td:nth-child(6) {
+  width: 16.6%;
+}
+td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
 @media screen and (max-width: 780px) {
   form {
     min-width: -webkit-fill-available;
@@ -50,7 +74,7 @@ th {
 }
 @media screen and (max-width: 421px) {
   .table td, .table th {
-    padding: .50rem;
+    padding: .10rem;
   }
 }
 
@@ -59,7 +83,7 @@ th {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-size: smaller;
+    font-size: xx-smaller;
   }
   tbody {
     display: block;
@@ -68,7 +92,7 @@ th {
     font-size: smaller;
   }
   .table td, .table th {
-    padding: .45rem;
+    padding: .10rem;
   }
   form {
     min-width: -webkit-fill-available;
@@ -92,6 +116,6 @@ th {
     font-size: smaller;
   }
   .table td, .table th {
-    padding: .10rem;
+    padding: .1rem;
   }
 }

@@ -14,22 +14,10 @@
   <link rel="stylesheet" href="./css/style.css">
 
 </head>
-  <body>
+<body>
 <main>
   <div class="container text-center">
-
-  <!-- Cadastrar -->
-  
-
     <h1 class="py-4 rounded"><i class="fas fa-store"></i>LOJA DAS FRUTAS</h1>
-
-    <!-- Atualizar dados -->
-
-  
-
-    <!-- Deletar -->
-  
-    <!-- editar -->
     <?php require_once 'process.php'; ?>
 
     <?php 
@@ -76,16 +64,16 @@
                 value="<?php echo $vlcodigo; ?>" placeholder="Código da fruta" class="form-control" id="vlcodigo" required>
             </div>
             
-          <?php
-            if($update == true):
-          ?> 
-          <button type="submit" class="btn btn-info" name="update">Salvar</button>
-          <a href="index.php" class="btn btn-success" name="inicio">Inicio</a>
-            <?php else: ?>    
-          <button type="submit" class="btn btn-success" name="save">Cadastrar</button>
-          <a href="vendas.php" class="btn btn-success" name="vendas">Vendas</a>
-            <?php endif; ?>
-      </div>
+            <?php
+              if($update == true):
+            ?> 
+            <button type="submit" class="btn btn-info" name="update">Salvar</button>
+            <a href="index.php" class="btn btn-success" name="inicio">Inicio</a>
+              <?php else: ?>    
+            <button type="submit" class="btn btn-success" name="save">Cadastrar</button>
+            <a href="vendas.php" class="btn btn-success" name="vendas">Vendas</a>
+              <?php endif; ?>
+        </div>
 
       </form>
     </div>
@@ -106,9 +94,6 @@
             <th>Código</th>
           <tr>
         </thead>
-      
-
-        <!-- https://www.youtube.com/watch?v=GO_GFl7X6Ew&t=147s -->
         <tbody>
         <?php 
         while ($row = $result->fetch_assoc()): ?>

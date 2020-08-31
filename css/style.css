@@ -1,0 +1,97 @@
+h1 {
+  background: #309D43;
+  color: #FBFBFF;
+}
+a .fas {
+  background:#9AE19D;
+}
+.container {
+  background: #9AE19D;
+
+}
+.d-flex table {
+  margin: 0 auto;
+  background: #309d43;
+  color: #FBFBFF;
+}
+
+th:nth-child(1) {
+  width: 16.6%;
+}
+th:nth-child(2) {
+  width: 16.6%;
+}
+th:nth-child(3) {
+  width: 16.6%;
+}
+th:nth-child(4) {
+  width: 16.6%;
+}
+th:nth-child(5) {
+  width: 16.6%;
+}
+th:nth-child(6) {
+  width: 16.6%;
+}
+th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+  form {
+    min-width: -webkit-fill-available;
+  }
+  .table {
+    overflow-wrap: anywhere;
+    font: -webkit-control;
+  }
+}
+@media screen and (max-width: 421px) {
+  .table td, .table th {
+    padding: .50rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  thead {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: smaller;
+  }
+  tbody {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: smaller;
+  }
+  .table td, .table th {
+    padding: .45rem;
+  }
+  form {
+    min-width: -webkit-fill-available;
+  }
+  .table {
+    overflow-wrap: anywhere;
+    font: -webkit-control;
+  }
+}
+@media screen and (max-width: 321px) {
+  thead {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+  }
+  tbody {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: smaller;
+  }
+  .table td, .table th {
+    padding: .10rem;
+  }
+}

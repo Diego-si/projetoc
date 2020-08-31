@@ -104,7 +104,7 @@
             <td><?php echo $row['vlvalidade']; ?></td>
             <td><?php echo $row['vlcodigo']; ?></td>
             <td>
-              <a href="vendas.php?vender=<?php echo $row['idproduct']; ?>" class="btn btn-info btn-xs"><i class="fas fa-dollar-sign"></i></a>
+              <a href="vendas.php?vender=<?php echo $row['idproduct']; ?>" class="btn btn-outline-light btn-xs"><i class="fas fa-hand-holding-usd"></i></a>
               <a href="index.php?edit=<?php echo $row['idproduct']; ?>" class="btn btn-primary btn-xs"><i class="fa fa-edit"></i></a>
               <a href="process.php?delete=<?php echo $row['idproduct']; ?>" onclick="return confirm('Deseja realmente excluir este registro?')" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
             </td>

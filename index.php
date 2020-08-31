@@ -71,7 +71,7 @@
             <a href="index.php" class="btn btn-success" name="inicio">Inicio</a>
               <?php else: ?>    
             <button type="submit" class="btn btn-success" name="save">Cadastrar</button>
-            <a href="vendas.php" class="btn btn-success" name="vendas">Vendas</a>
+            <a href="vendas.php" class="btn btn-info" name="vendas">Vendas</a>
               <?php endif; ?>
         </div>
 

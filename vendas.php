@@ -57,13 +57,13 @@
               <div class="col-md-6 mb-2">
               <label>Forma de pagamento</label>
                 <input type="boolean" name="credito" 
-                value="<?php echo $credito; ?>" class="form-control" id="credito" required>
+                value="<?php echo $credito; ?>" placeholder="Crédito = 0" class="form-control" id="credito" required>
               </div>
 
               <div class="col-md-6 mb-2">
               <label>Forma de pagamento</label>
                 <input type="boolean" name="debito" 
-                value="<?php echo $debito; ?>" class="form-control" id="debito" required>
+                value="<?php echo $debito; ?>" placeholder="Débito = 1" class="form-control" id="debito" required>
               </div>
             </div>
             <div class="form-row">
@@ -77,13 +77,13 @@
               <div class="col-md-8 mb-2">
                 <label>Rua</label>
                   <input type="text" name="rua" 
-                  value="<?php echo $rua; ?>" placeholder="Rua: xv de novembro" class="form-control" id="rua" required>
+                  value="<?php echo $rua; ?>" class="form-control" id="rua" required>
               </div>
             </div>
             <div class="col-md-12 mb-2">
               <label>Bairro</label>
                 <input type="text" name="bairro" 
-                value="<?php echo $bairro; ?>" placeholder="Bairro" class="form-control" id="bairro" required>
+                value="<?php echo $bairro; ?>" class="form-control" id="bairro" required>
             </div>
           <div class="form-row">
             <div class="col-md-6 mb-2">
